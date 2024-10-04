@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Quote Popper",
+    "version": "1.0",
+    "description": "Displays a motivational quote every 10 seconds.",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Get a new quote!"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
